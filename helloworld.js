@@ -4,3 +4,4 @@ function myFunction()
 }
 
 //This is a comment and this is another comment.
+//This is a 2nd line comment.
