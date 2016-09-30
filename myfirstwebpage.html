@@ -8,37 +8,18 @@
     <script src="myfirstwebpage.js"></script>
 </head>
 <body>
-  <h1 id = "heading1" style="color:blue" id="heading1"><strong>Paul's Webpage</strong></h1>
-  <h2>Random things</h2>
-  <p>This is my <strong>first webpage!</strong></p>
-  <p>What <em>exciting</em> times we live in!</p>
-  <h3>Reasons why this webpage exists</h3>
-  <ul>
-    <li>This is fun!</li>
-    <li>For TOM
-      <li>To show off to my friends
-      <ol>
-        <li>Like my boss.</li>
-        <li>Like my Mum.</li>
-        <li>Like my girlfried.</li>
-      </ol>
-    </li>
-  </ul>
-    
-    <button>Click me to hide heading 1!</button>
-        
+    <div id = "main">
+  <h1 id = "heading1" style="color:blue" id="heading1"><strong>Paul David Natarajan</strong></h1>
+  <h2>Introduction</h2>
+    <p>
+      Hello World! My name is Paul and I'm currently a 4th Year Electrical Engineering student at the University of Calgary. My interests include a wide array of topics such as embedded electronics, programming and robotics.
+    </p>
+    <p>
+        In my spare time, I am involved in a diverse range of projects. For example, I am currently involved with the Calgary branch of TOM (Tikkun Olam Makers), a collaboration of developers and innovators working together to develop open source solutions for the disabled community. Other than
+    </p>
   
     <script>
-        $(document).ready(function()
-                          {$("button").click(function(){
-                $("#heading1").hide();
-            });
-                             
-            });
-        var person = {firstName: "Paul", lastName: "Natarajan", age:50, 
-                        fullName: function(){return this.firstName + " " + this.lastName;}
-                     };
-        console.log(person.fullName());
     </script>
+    </div>
 </body>
 </html>
