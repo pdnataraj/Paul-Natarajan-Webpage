@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="jquery-1.12.4.min.js"></script>
   <title>My first webpage!</title>
   <link type ="text/css" rel = "stylesheet"
   href="style.css"/>
     <script src="myfirstwebpage.js"></script>
 </head>
 <body>
-  <h1 style="color:blue" id="heading1"><strong>Paul's Webpage</strong></h1>
+  <h1 id = "heading1" style="color:blue" id="heading1"><strong>Paul's Webpage</strong></h1>
   <h2>Random things</h2>
   <p>This is my <strong>first webpage!</strong></p>
   <p>What <em>exciting</em> times we live in!</p>
@@ -24,31 +25,20 @@
     </li>
   </ul>
     
+    <button>Click me to hide heading 1!</button>
         
-    <div class="tile">
-        <button type="button" class="playButton">Play</button>
-        <button type="button" class="xButton">X</button>
-        <img src="duffle_bag_1.png">
-        <p class ="backgroundText">This is background text that I have written!</p>
-    </div>
-    <script>
   
+    <script>
+        $(document).ready(function()
+                          {$("button").click(function(){
+                $("#heading1").hide();
+            });
+                             
+            });
+        var person = {firstName: "Paul", lastName: "Natarajan", age:50, 
+                        fullName: function(){return this.firstName + " " + this.lastName;}
+                     };
+        console.log(person.fullName());
     </script>
 </body>
 </html>
-<!-- div.background_image
-{
-    position: absolute;
-    top: 10%;
-    width: 170px;
-    height: 150px;
-    text-align: center;
-    word-wrap: break-word;
-    color: black;
-    background: url('duffle_bag_1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.5;
-}
--->
