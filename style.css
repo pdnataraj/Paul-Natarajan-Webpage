@@ -1,7 +1,18 @@
-#main{
-    height: auto;
-    width: auto;
-    background-image: url(power-3.jpg);
-    background-size: 100% 80%;
-    background-repeat: no-repeat;
+h1{
+    text-align: center;
+    color:black;
+    font: "Arial"
+}
+#main_paragraph{
+    color: darkblue;
+    font: "Arial";
+}
+#intro_paragraph{
+    color: darkblue;
+    font: "Arial"
+}
+#circuits_image{
+    
+    height: 400px;
+    width: 400px;
 }
