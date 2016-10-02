@@ -1,18 +1,26 @@
 h1{
     text-align: center;
     color:black;
-    font: "Arial"
+    font-family: 'Lora', serif;
+}
+#main{
+    background-color: aliceblue;
 }
 #main_paragraph{
     color: darkblue;
-    font: "Arial";
+    font-family: 'Lora', serif;
 }
 #intro_paragraph{
     color: darkblue;
-    font: "Arial"
+    font-family: 'Lora', serif;
 }
-#circuits_image{
-    
-    height: 400px;
-    width: 400px;
+#TOM_stuff{
+    position: relative;
+    background-color: lightgreen
+}
+#next_to_TOM_photo{
+    position: absolute;
+    left: 30%;
+    top: 0%;
+    font-family: 'Lora', serif;
 }
